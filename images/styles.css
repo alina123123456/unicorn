@@ -1,0 +1,30 @@
+:root {
+  --base-color: #151616;
+}
+
+body {
+  /* background-color: var(--base-color); */
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  color: white;
+  background-color: var(--base-color);
+}
+
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-list{
+    display: flex;
+}
