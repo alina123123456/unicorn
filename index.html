@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Unicorn</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Unicorn</title>
+</head>
+
+<body>
+  <div class="container">
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="index.html"
-          ><img src="./images/logo.jpg" alt="logo"
-        /></a>
+        <a class="header-logo" href="index.html"><img src="./images/logo.jpg" alt="logo" /></a>
         <ul class="header-nav-list">
           <li class="header-nav-item">
             <a class="header-nav-item-link" href="index.html">Home</a>
@@ -34,14 +36,18 @@
         </ul>
       </nav>
     </header>
-    <section class="hero">
+  </div>
+  <section class="hero">
+    <div class="container">
       <div class="hero-img-pink">
         <div class="hero-img">
-          <div class="hero-title-block">
-            <h1 class="hero-title">energy gym</h1>
-          </div>
-          <div class="hero-link-block">
-            <a class="hero-link" href="index.html">Website</a>
+          <div class="hero-title-link">
+            <div class="hero-title-block">
+              <h1 class="hero-title">energy gym</h1>
+            </div>
+            <div class="hero-link-block">
+              <a class="hero-link" href="index.html">Website</a>
+            </div>
           </div>
         </div>
         <div class="pink-block"></div>
@@ -50,110 +56,78 @@
         6 000 sq.m. of comfortable fitness with amazing view of the right bank
         of Kiev, the Lavra and the Dnieper.
       </p>
-    </section>
+    </div>
+  </section>
+  <div class="container">
     <section class="services">
       <ul class="services-list">
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="./images/dumbbells.png"
-            alt="dumbbells"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">fitness center group training hall</p>
+          <img class="services-item-img" src="./images/dumbbells.png" alt="dumbbells" width="65px" height="65px" />
+          <span class="services-item-text">fitness center group training hall</span>
         </li>
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="/images/treadmill.png"
-            alt="treadmill"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">cardio theater</p>
+          <img class="services-item-img" src="/images/treadmill.png" alt="treadmill" width="65px" height="65px" />
+          <span class="services-item-text">cardio theater</spaspan>
         </li>
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="./images/swimming-pool.png"
-            alt="swimming-pool"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">
+          <img class="services-item-img" src="./images/swimming-pool.png" alt="swimming-pool" width="65px"
+            height="65px" />
+          <span class="services-item-text">
             professional sports pool 25х15 m with 6 swim lanes и 2 wading pools
-          </p>
+          </span>
         </li>
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="./images/smiling-baby.png"
-            alt="smiling-baby"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">children’s club EnerKid 500 q.m.</p>
+          <img class="services-item-img" src="./images/smiling-baby.png" alt="smiling-baby" width="65px"
+            height="65px" />
+          <span class="services-item-text">children’s club EnerKid 500 q.m.</span>
         </li>
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="./images/juice.png"
-            alt="juice"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">fitness bar</p>
+          <img class="services-item-img" src="./images/juice.png" alt="juice" width="65px" height="65px" />
+          <span class="services-item-text">fitness bar</span>
         </li>
         <li class="services-item">
-          <img
-            class="services-item-img"
-            src="./images/boxing-gloves.png"
-            alt="boxing-gloves"
-            width="65px"
-            height="65px"
-          />
-          <p class="services-item-text">fight Club</p>
+          <img class="services-item-img" src="./images/boxing-gloves.png" alt="boxing-gloves" width="65px"
+            height="65px" />
+          <span class="services-item-text">fight Club</span>
         </li>
       </ul>
-    </section>
-    <section class="map">
+  </div>
+  </section>
+  <section class="map">
+    <div class="container">
       <div class="map-block">
         <img class="map-img" src="./images/map.jpg" alt="map" />
-        <p class="map-text">1 Pavla Tychyny Ave, Kiev, Ukraine</p>
+        <span class="map-text">1 Pavla Tychyny Ave, Kiev, Ukraine</span>
       </div>
-    </section>
-    <section class="contacts">
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
       <h2 class="contacts-title">contacts</h2>
       <ul class="contacts-list">
         <li class="contacts-item">
           <img class="contacts-item-img" src="./images/email.png" alt="email" />
           <p class="contacts-item-text">email</p>
           <address class="contacts-address">
-            <a class="address-item-link" href="mailto:info@unicorn.com"
-              >info@unicorn.com</a
-            >
+            <a class="address-item-link" href="mailto:info@unicorn.com">info@unicorn.com</a>
           </address>
         </li>
         <li class="contacts-item">
           <img class="contacts-item-img" src="./images/phone.png" alt="phone" />
           <p class="contacts-item-text">call</p>
           <address class="contacts-address">
-            <a class="address-item-link" href="tel:+380507770000"
-              >+38050 777 00 00</a
-            >
+            <a class="address-item-link" href="tel:+380507770000">+38050 777 00 00</a>
           </address>
         </li>
         <li class="contacts-item">
-          <img
-            class="contacts-item-img"
-            src="./images/location.png"
-            alt="location"
-          />
+          <img class="contacts-item-img" src="./images/location.png" alt="location" />
           <p class="contacts-item-text">location</p>
           <p class="contacts-item-text">Kiev, Ukraine</p>
         </li>
       </ul>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
