@@ -33,11 +33,11 @@ li {
 
 .container {
   width: 100%;
-  max-width: 1310px;
+  max-width: 1050px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* =================header========================= */
@@ -46,44 +46,62 @@ li {
   display: flex;
   padding-top: 8px;
   padding-bottom: 13px;
+  align-items: center;
+
 }
 
 .header-nav-list {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 100px;
 }
 
 .header-nav-item {
+  display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
 }
 
+
 /* =======================hero====================== */
-.hero-img-pink{
+.hero-img-pink {
   display: flex;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 
 .hero-img {
-  height: 513px;
-  width: 957px;
-  background-color: blue;
+  /* height: 513px;
+  max-width: 957px;
+  width: 100%; */
+  background-image: url(./images/hero-back.png);
+  background-repeat: no-repeat ;
+  background-size: 101%;
 }
 
 .pink-block {
   height: 340px;
-  width: 100px;
-  background-color: pink;
+  max-width: 100px;
+  width: 100%;
+  background-color: #ED1260;
 }
 
 .hero-title-link {
-  background-color: red;
+  background-color: transparent;
   display: inline-block;
+  margin-top: 80px;
+  margin-left: 45px;
+  margin-bottom: 217px;
+  margin-right: 580px;
 }
 
 .hero-title-block {
   margin: 0 auto;
-  background-color: yellow;
+  background-color: black;
   display: block;
   width: 327px;
   margin-bottom: 19px;
@@ -100,7 +118,7 @@ li {
 
 .hero-link-block {
   margin: 0 auto;
-  background-color: yellow;
+  background-color: black;
   height: 50px;
   width: 200px;
 }
@@ -114,4 +132,13 @@ li {
   text-decoration: underline;
   text-decoration-style: solid;
   padding: 15px 20px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  padding-left: 25px;
+  padding-right: 50px;
+  padding-top: 30px;
 }
