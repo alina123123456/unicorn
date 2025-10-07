@@ -47,7 +47,6 @@ li {
   padding-top: 8px;
   padding-bottom: 13px;
   align-items: center;
-
 }
 
 .header-nav-list {
@@ -65,8 +64,8 @@ li {
   letter-spacing: 0%;
 }
 
-
 /* =======================hero====================== */
+
 .hero-img-pink {
   display: flex;
   width: 100%;
@@ -79,7 +78,7 @@ li {
   max-width: 957px;
   width: 100%; */
   background-image: url(./images/hero-back.png);
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-size: 101%;
 }
 
@@ -87,12 +86,14 @@ li {
   height: 340px;
   max-width: 100px;
   width: 100%;
-  background-color: #ED1260;
+  background-color: #ed1260;
 }
 
 .hero-title-link {
   background-color: transparent;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 80px;
   margin-left: 45px;
   margin-bottom: 217px;
@@ -100,10 +101,8 @@ li {
 }
 
 .hero-title-block {
-  margin: 0 auto;
   background-color: black;
   display: block;
-  width: 327px;
   margin-bottom: 19px;
 }
 
@@ -113,32 +112,64 @@ li {
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  padding: 50px 20px;
+  padding: 50px 50px;
 }
 
 .hero-link-block {
-  margin: 0 auto;
   background-color: black;
-  height: 50px;
-  width: 200px;
+  width: auto;
+  display: inline-block;
+  padding: 0 40px;
 }
 
 .hero-link {
   display: block;
-  font-weight: 400;
   font-size: 22px;
   line-height: 100%;
   text-align: center;
   text-decoration: underline;
   text-decoration-style: solid;
-  padding: 15px 20px;
+  padding: 15px 0;
 }
 
 .hero-text {
-  font-weight: 400;
   font-size: 25px;
   line-height: 120%;
   padding-left: 25px;
   padding-right: 50px;
   padding-top: 30px;
+}
+
+/* ======================services====================== */
+
+.services{
+  padding-top: 40px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.services-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.services-item-img {
+}
+
+.services-item-text {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  line-height: 130%;
+  padding-top: 10px;
 }
