@@ -68,43 +68,24 @@ li {
 
 .hero-img-pink {
   display: flex;
-  width: 100%;
-  max-width: 1050px;
-  margin: 0 auto;
-}
-
-.hero-img {
-  /* height: 513px;
-  max-width: 957px;
-  width: 100%; */
-  background-image: url(./images/hero-back.png);
-  background-repeat: no-repeat;
-  background-size: 101%;
 }
 
 .pink-block {
-  height: 340px;
-  max-width: 100px;
-  width: 100%;
+  flex: 24%;
   background-color: #ed1260;
 }
 
 .hero-title-link {
+  flex: 76%;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
-  margin-left: 45px;
-  margin-bottom: 217px;
-  margin-right: 580px;
-}
-
-.hero-title-block {
-  background-color: black;
-  display: block;
-  margin-bottom: 19px;
-}
+  background-image: url(./images/hero-back.png);
+  background-repeat: no-repeat;
+  background-size: 101%;
+  padding: 80px 570px 150px 45px;
+} 
 
 .hero-title {
   font-weight: 400;
@@ -113,23 +94,19 @@ li {
   text-align: center;
   text-transform: uppercase;
   padding: 50px 50px;
-}
-
-.hero-link-block {
   background-color: black;
-  width: auto;
-  display: inline-block;
-  padding: 0 40px;
+  margin-bottom: 19px;
 }
 
 .hero-link {
-  display: block;
+  display: inline-block;
   font-size: 22px;
   line-height: 100%;
   text-align: center;
   text-decoration: underline;
   text-decoration-style: solid;
-  padding: 15px 0;
+  padding: 15px 40px;
+  background-color: black;
 }
 
 .hero-text {
@@ -173,3 +150,7 @@ li {
   line-height: 130%;
   padding-top: 10px;
 }
+
+/* =====================map====================== */
+
+
