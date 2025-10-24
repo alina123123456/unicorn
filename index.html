@@ -1,127 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Unicorn</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Unicorn</title>
-</head>
-
-<body>
-  <div class="container">
+  <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="header-logo" href="index.html"><img src="./images/logo.jpg" alt="logo" /></a>
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-item-link" href="index.html">Home</a>
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo" href="index.html"
+            ><img src="./images/logo.jpg" alt="logo"
+          /></a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-item-link" href="index.html">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-item-link" href="">Business</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-item-link" href="">Contacts</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-item-link" href="">Ru|Eng</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-img-pink">
+          <div class="hero-title-link">
+            <h1 class="hero-title">energy gym</h1>
+            <a class="hero-link" href="index.html">Website</a>
+          </div>
+          <div class="pink-block"></div>
+        </div>
+        <p class="hero-text">
+          6 000 sq.m. of comfortable fitness with amazing view of the right bank
+          of Kiev, the Lavra and the Dnieper.
+        </p>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <ul class="services-list">
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="./images/dumbbells.png"
+              alt="dumbbells"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text"
+              >fitness center group training hall</span
+            >
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-item-link" href="">Business</a>
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="/images/treadmill.png"
+              alt="treadmill"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text">cardio theater</span>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-item-link" href="">Contacts</a>
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="./images/swimming-pool.png"
+              alt="swimming-pool"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text">
+              professional sports pool 25х15 m with 6 swim lanes и 2 wading
+              pools
+            </span>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-item-link" href="">Ru|Eng</a>
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="./images/smiling-baby.png"
+              alt="smiling-baby"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text"
+              >children’s club EnerKid 500 q.m.</span
+            >
+          </li>
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="./images/juice.png"
+              alt="juice"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text">fitness bar</span>
+          </li>
+          <li class="services-item">
+            <img
+              class="services-item-img"
+              src="./images/boxing-gloves.png"
+              alt="boxing-gloves"
+              width="65px"
+              height="65px"
+            />
+            <span class="services-item-text">fight Club</span>
           </li>
         </ul>
-      </nav>
-    </header>
-  </div>
-  <section class="hero">
-    <div class="container">
-      <div class="hero-img-pink">
-          <div class="hero-title-link">
-              <h1 class="hero-title">energy gym</h1>
-              <a class="hero-link" href="index.html">Website</a>
-          </div>
-        <div class="pink-block"></div>
       </div>
-      <p class="hero-text">
-        6 000 sq.m. of comfortable fitness with amazing view of the right bank
-        of Kiev, the Lavra and the Dnieper.
-      </p>
-    </div>
-  </section>
-  <div class="container">
-    <section class="services">
-      <ul class="services-list">
-        <li class="services-item">
-          <img class="services-item-img" src="./images/dumbbells.png" alt="dumbbells" width="65px" height="65px" />
-          <span class="services-item-text">fitness center </br> group training hall</span>
-        </li>
-        <li class="services-item">
-          <img class="services-item-img" src="/images/treadmill.png" alt="treadmill" width="65px" height="65px" />
-          <span class="services-item-text">cardio theater</spaspan>
-        </li>
-        <li class="services-item">
-          <img class="services-item-img" src="./images/swimming-pool.png" alt="swimming-pool" width="65px"
-            height="65px" />
-          <span class="services-item-text">
-            professional sports pool 25х15 m with 6 swim lanes и 2 wading pools
-          </span>
-        </li>
-        <li class="services-item">
-          <img class="services-item-img" src="./images/smiling-baby.png" alt="smiling-baby" width="65px"
-            height="65px" />
-          <span class="services-item-text">children’s club EnerKid</br> 500 q.m.</span>
-        </li>
-        <li class="services-item">
-          <img class="services-item-img" src="./images/juice.png" alt="juice" width="65px" height="65px" />
-          <span class="services-item-text">fitness bar</span>
-        </li>
-        <li class="services-item">
-          <img class="services-item-img" src="./images/boxing-gloves.png" alt="boxing-gloves" width="65px"
-            height="65px" />
-          <span class="services-item-text">fight Club</span>
-        </li>
-      </ul>
-  </div>
-  </section>
-  <section class="map">
-    <div class="container">
-      <div class="map-block">
-        <img class="map-img" src="./images/map.jpg" alt="map" />
-        <span class="map-text">1 Pavla Tychyny Ave, Kiev, Ukraine</span>
+    </section>
+
+    <section class="map">
+      <div class="container map">
+        <div class="map-block">
+          <img
+            class="map-img"
+            src="./images/map.jpg"
+            alt="map"
+            height="230px"
+            width="515px"
+          />
+          <p class="map-text">1 Pavla Tychyny Ave, Kiev, Ukraine</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="contacts">
-    <div class="container">
-      <h2 class="contacts-title">contacts</h2>
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <img class="contacts-item-img" src="./images/email.png" alt="email" />
-          <p class="contacts-item-text">email</p>
-          <address class="contacts-address">
-            <a class="address-item-link" href="mailto:info@unicorn.com">info@unicorn.com</a>
-          </address>
-        </li>
-        <li class="contacts-item">
-          <img class="contacts-item-img" src="./images/phone.png" alt="phone" />
-          <p class="contacts-item-text">call</p>
-          <address class="contacts-address">
-            <a class="address-item-link" href="tel:+380507770000">+38050 777 00 00</a>
-          </address>
-        </li>
-        <li class="contacts-item">
-          <img class="contacts-item-img" src="./images/location.png" alt="location" />
-          <p class="contacts-item-text">location</p>
-          <p class="contacts-item-text">Kiev, Ukraine</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-</body>
-
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts-title">contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <img
+              class="contacts-item-img"
+              src="./images/email.png"
+              alt="email"
+            />
+            <p class="contacts-item-text">email</p>
+            <address class="contacts-address">
+              <a class="address-item-link" href="mailto:info@unicorn.com"
+                >info@unicorn.com</a
+              >
+            </address>
+          </li>
+          <li class="contacts-item">
+            <img
+              class="contacts-item-img"
+              src="./images/phone.png"
+              alt="phone"
+            />
+            <p class="contacts-item-text">call</p>
+            <address class="contacts-address">
+              <a class="address-item-link" href="tel:+380507770000"
+                >+38050 777 00 00</a
+              >
+            </address>
+          </li>
+          <li class="contacts-item">
+            <img
+              class="contacts-item-img"
+              src="./images/location.png"
+              alt="location"
+            />
+            <p class="contacts-item-text">location</p>
+            <p class="contacts-item-text">Kiev, Ukraine</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
