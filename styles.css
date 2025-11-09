@@ -130,14 +130,19 @@ li {
 .services-item {
   display: flex;
   flex-direction: column;
-  max-width: 270px;
+  max-width: 150px;
   width: 100%;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.services-item-img{
+  width: 65px;
+  height: 65px;
 }
 
 .services-item-text {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
