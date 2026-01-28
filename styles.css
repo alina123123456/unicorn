@@ -66,13 +66,7 @@ li {
 
 /* =======================hero====================== */
 
-.hero-img-pink {
-  display: flex;
-}
-
 .pink-block {
-  padding-right: 100px;
-  height: 350px;
   background-color: #ed1260;
 }
 
@@ -83,17 +77,14 @@ li {
   align-items: center;
   background-image: url(./images/hero-back.png);
   background-repeat: no-repeat;
-  background-size: 101%;
-  padding: 80px 570px 230px 45px;
+  background-size:101%;
 }
 
 .hero-title {
   font-weight: 400;
-  font-size: 32px;
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  padding: 50px 50px;
   background-color: black;
   margin-bottom: 19px;
 }

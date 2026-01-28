@@ -1,7 +1,47 @@
 @media screen and (min-width: 375px){
  .container {
     max-width: 375px;
+    padding-left: 0px;
+  padding-right: 0px;
  }
+
+  /* ------------------hero-------------------- */
+
+ .pink-block {
+  height: 65px;
+  width: 75%;
+}
+
+.hero-title-link {
+  padding: 30px 100px 200px 40px;
+  background-position: right;
+  background-size:cover;
+}
+
+.hero-title {
+  font-size: 20px;
+  padding: 40px 40px;
+  margin-bottom: 19px;
+}
+
+.hero-link {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  padding: 15px 40px;
+  background-color: black;
+}
+
+.hero-text {
+  font-size: 25px;
+  line-height: 120%;
+  padding-left: 25px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
 }
 
 @media screen and (min-width: 768px){
@@ -19,6 +59,29 @@
  .container {
     max-width: 1050px;
  }
+
+ /* ------------------hero-------------------- */
+
+ .hero-img-pink {
+  display: flex;
+}
+
+.pink-block {
+  padding-right: 100px;
+  height: 350px;
+  width: 0;
+}
+
+.hero-title-link {
+  padding: 80px 570px 230px 45px;
+}
+
+.hero-title {
+  font-size: 32px;
+  padding: 50px 50px;
+  margin-bottom: 19px;
+}
+/* ----------------serveces ----------------- */
 
  .services-item {
   max-width: 270px;
